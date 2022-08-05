@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: peachpuff;
+  }
+  input[type=textarea] {
+    width: 100%;
+    padding: 40px 50px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  

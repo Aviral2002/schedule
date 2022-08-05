@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import Input from './input';
 import './App.css';
+// import  express  from 'express';
+// //path
+// import path from 'path';
+// import fs from 'fs';
+
+// //using express 
+// const app = express();
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Input />
     </div>
   );
 }
